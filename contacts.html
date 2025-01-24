@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="css\styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="logo">
+            <img src="img/logo.png" alt="CozyCup Café Logo" />
+            <p>CozyCupCafe</p>
+          </div>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="contact-info">
+        <div class="contact-item">
+          <img src="img\point.png" alt="Map Icon" class="icon">
+          <p>Brgy. Mandaragat, Puerto Princesa City, Palawan</p>
+        </div>
+        <div class="contact-item">
+          <img src="img\phone-call.png" alt="Phone Icon" class="icon">
+          <p>09123456781</p>
+        </div>
+        <div class="contact-item">
+          <img src="img\mail.png" alt="Email Icon" class="icon">
+          <p>202280128@psu.palawan.edu.ph</p>
+        </div>
+      </div>
+      
+      <div class="form-container">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="post">
+          <div class="form-group">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject:</label>
+            <select id="subject" name="subject" required>
+              <option value="inquiry">General Inquiry</option>
+              <option value="feedback">Feedback</option>
+              <option value="reservation">Reservation Request</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+          </div>
+          <div class="form-group">
+            <button type="submit">Send</button>
+          </div>
+        </form>
+      </div>
+      <div class="map">
+        <h3>Map where the cafe is located at</h3>
+        <img src="img\map.png" alt="map">
+      </div>
+
+      <footer>
+        <div class="icons">
+          <img src="img\facebook.png" alt="">
+          <img src="img\instagram.png" alt="">
+          <img src="img\telegram.png" alt="">
+        </div>
+        <div class="footer-links">
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contacts.html">Contact Us</a></li>
+        </ul>
+        </div>  
+        <p>&copy; 2025 CozyCup Café. All rights reserved.</p>
+  
+      </footer>
+</body>
+</html>
