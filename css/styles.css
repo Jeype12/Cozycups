@@ -140,19 +140,20 @@ nav a:hover {
 }
 
 .menu {
-  height: 100vh;
+  height: 70vh;
   width: auto;
   background-color: #7e685b;
-  color: #fff; /* Ensures text is visible on the dark background */
+  color: #fff; 
   padding: 20px;
-  overflow-y: auto; /* Enables scrolling if content exceeds the height */
+  overflow-y: auto; 
 }
 
 .menu h2 {
   text-align: center;
-  font-size: 30px;
+  font-size: 50px;
   margin-top: 50px;
   padding-top: 80px;
+
 }
 
 .featured-products {
@@ -161,7 +162,7 @@ nav a:hover {
 
 .featured-products h3 {
   text-align: center;
-  font-size: 24px;
+  font-size: 30px;
   margin-bottom: 20px;
   color: #fff;
 }
@@ -204,6 +205,29 @@ nav a:hover {
   font-weight: bold;
   color: #7e685b;
 }
+
+.menu_btn {
+  
+  padding: 10px 20px;
+  background-color: #8d3b0baf;
+  color: white;
+  text-decoration: none;
+  border-radius:5px;
+  display: inline-block;
+  margin-left: 45%;
+  margin-top: 10%;
+  
+  
+ 
+  
+}
+
+.menu_btn:hover{
+  background-color: #4c3c32;
+}
+
+
+
 
 .about {
   padding: 100px 0;
