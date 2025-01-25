@@ -140,7 +140,7 @@ nav a:hover {
 }
 
 .menu {
-  height: 70vh;
+  height: 100vh;
   width: auto;
   background-color: #7e685b;
   color: #fff; 
@@ -324,4 +324,12 @@ footer {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-top: 20px; /* Adds spacing between details and form */
+}
+
+.disc {
+  padding-bottom: 30px;
+}
+
+.story {
+  text-align: center;
 }
