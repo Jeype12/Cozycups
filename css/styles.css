@@ -140,7 +140,7 @@ nav a:hover {
 }
 
 .menu {
-  height: 70vh;
+  height: 100vh;
   width: auto;
   background-color: #7e685b;
   color: #fff; 
@@ -214,7 +214,7 @@ nav a:hover {
   text-decoration: none;
   border-radius:5px;
   display: inline-block;
-  margin-left: 45%;
+  margin-left: 47%;
   margin-top: 10%;
   
   
